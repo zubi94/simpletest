@@ -21,7 +21,7 @@ public void f() throws InterruptedException {
 	  menumotion.click();
 
 }
-@BeforeClass
+//@BeforeClass
 public void beforeClass()
 {
 System.setProperty("webdriver.chrome.driver","C:\\Users\\lala94\\eclipse-workspace\\homedepot\\chromedriver.exe");
@@ -32,7 +32,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\lala94\\eclipse-workspa
 	  driver.manage().window().maximize();
 }
 
-@AfterClass
+//@AfterClass
 public void afterClass() {
 }
 }
