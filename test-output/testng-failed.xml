@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="10" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="10" name="chrometest(failed)">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="URL" value="https://www.target.com"/>
+  <test thread-count="10" name="target-chrome-test(failed)">
     <classes>
       <class name="protraining.Bootcamp.newacc">
         <methods>
+          <include name="browsers"/>
           <include name="afterClass"/>
           <include name="f"/>
-          <include name="beforeClass"/>
         </methods>
       </class> <!-- protraining.Bootcamp.newacc -->
     </classes>
-  </test> <!-- chrometest(failed) -->
+  </test> <!-- target-chrome-test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
