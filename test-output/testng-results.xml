@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-06T00:23:47 EDT" name="Suite" finished-at="2020-05-06T00:24:17 EDT" duration-ms="29556">
+    <groups>
+    </groups>
+    <test started-at="2020-05-06T00:23:47 EDT" name="chrometest" finished-at="2020-05-06T00:24:17 EDT" duration-ms="29556">
+      <class name="protraining.Bootcamp.newacc">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:protraining.Bootcamp.newacc@1d082e88]" started-at="2020-05-06T00:23:47 EDT" name="beforeClass" finished-at="2020-05-06T00:24:10 EDT" duration-ms="22573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:0, instance:protraining.Bootcamp.newacc@1d082e88]" started-at="2020-05-06T00:24:10 EDT" name="f" finished-at="2020-05-06T00:24:17 EDT" duration-ms="6853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:protraining.Bootcamp.newacc@1d082e88]" started-at="2020-05-06T00:24:17 EDT" name="afterClass" finished-at="2020-05-06T00:24:17 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- protraining.Bootcamp.newacc -->
+    </test> <!-- chrometest -->
+  </suite> <!-- Suite -->
+</testng-results>
